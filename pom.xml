@@ -7,7 +7,7 @@
 
     <groupId>com.first.mysite</groupId>
     <artifactId>mysite</artifactId>
-    <version>1.0.0-SNAPSHOT</version>
+    <version>${revision}</version>
     <packaging>pom</packaging>
 
     <name>example - Reactor Project</name>
@@ -19,6 +19,7 @@
     <properties>
         <crx.host>localhost</crx.host>
         <crx.port>4502</crx.port>
+		<revision>1.0-SNAPSHOT</revision>
     </properties>
 
     <build>

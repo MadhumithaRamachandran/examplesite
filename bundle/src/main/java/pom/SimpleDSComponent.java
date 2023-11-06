@@ -20,7 +20,7 @@ public class SimpleDSComponent implements Runnable {
     private BundleContext bundleContext;
     
     public void run() {
-        logger.info("Running...");
+        logger.info("Running... first java ");
     }
     
     protected void activate(ComponentContext ctx) {
